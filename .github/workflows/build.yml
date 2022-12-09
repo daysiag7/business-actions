@@ -1,0 +1,11 @@
+name: Test and Deploy 
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+
+  test:
+    name: Test 
+    run-on: ubuntu-latest 
